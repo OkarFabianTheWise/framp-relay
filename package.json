@@ -5,8 +5,10 @@
   "github": "https://github.com/OkarFabianTheWise/framp-relay",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "dist/**/*.d.ts"
   ],
   "scripts": {
     "build": "tsc",
