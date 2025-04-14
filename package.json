@@ -2,13 +2,20 @@
   "name": "framp-relay",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "github": "https://github.com/OkarFabianTheWise/framp-relay",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "dev": "echo \"Error: no test specified\" && exit 1",
-    "test": "npx ts-node src/test.ts"
+    "test": "npx ts-node src/test.ts",
+    "prepare": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "https://github.com/OkarFabianTheWise/",
   "license": "ISC",
   "dependencies": {
     "@solana/spl-token": "^0.4.13",
